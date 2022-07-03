@@ -45,5 +45,11 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>写真ごるだへのアクセスが必要です</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This is called Privacy - Camera Usage Description in the visual editor</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Microphone Usage Description in the visual editor.</string>
 </dict>
 </plist>

@@ -1,3 +1,4 @@
+import 'package:fllutter_app/view/state_up/create_account_page.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -52,7 +53,7 @@ class _LoginPateState extends State<LoginPage> {
                   TextSpan(text: 'こちら',
                     style: TextStyle(color: Colors.blue),
                     recognizer: TapGestureRecognizer()..onTap = () {
-                      print('jkjddk');
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => CreateAccountPage()));
                     }
                   )
                 ]
